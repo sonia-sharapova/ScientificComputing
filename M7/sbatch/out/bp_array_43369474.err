@@ -1,0 +1,4 @@
+BLAST Database error: No alias or index file found for protein database [/home/sharapova/../../project2/mpcs56430/db/refseq_protein.19] in search path [/scratch/midway3/sharapova/mpcs56430-2024-autumn-assignment-7-s-sharapova:/project2/databases/blast:]
+real 0.01
+user 0.00
+sys 0.01

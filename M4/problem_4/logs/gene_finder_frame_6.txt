@@ -1,0 +1,5 @@
+
+real	0m6.174s
+user	0m6.099s
+sys	0m0.044s
+Frame 6 completed

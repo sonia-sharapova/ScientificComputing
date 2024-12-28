@@ -1,0 +1,3 @@
+Stride: 2
+Sequence: iteeinngdraeteevnnteat
+Words: at, dr, eat, in, inn, it, tea, teat, tee

@@ -1,0 +1,3 @@
+Stride: 3
+Sequence: ihennortthvatet
+Words: at, ate, he, hen, no, nor, or, vat

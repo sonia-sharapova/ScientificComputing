@@ -1,0 +1,20 @@
+Error: NCBI C++ Exception:
+    T0 "/home/coremake/release_build/build/PrepareRelease_Linux64-Centos_JSID_01_560232_130.14.18.6_9008__PrepareRelease_Linux64-Centos_1552331742/c++/compilers/unix/../../src/corelib/ncbiobj.cpp", line 981: Critical: ncbi::CObject::ThrowNullPointerException() - Attempt to access NULL pointer.
+     Stack trace:
+      blastp ???:0 ncbi::CStackTraceImpl::CStackTraceImpl() offset=0x77 addr=0x1d95b27
+      blastp ???:0 ncbi::CStackTrace::CStackTrace(std::string const&) offset=0x25 addr=0x1d981e5
+      blastp ???:0 ncbi::CException::x_GetStackTrace() offset=0xA0 addr=0x1ec70b0
+      blastp ???:0 ncbi::CException::SetSeverity(ncbi::EDiagSev) offset=0x49 addr=0x1ec1ee9
+      blastp ???:0 ncbi::CObject::ThrowNullPointerException() offset=0x2D2 addr=0x1f42302
+      blastp ???:0 ncbi::blast::CBlastTracebackSearch::Run() offset=0x61C addr=0xf2901c
+      blastp ???:0 ncbi::blast::CLocalBlast::Run() offset=0x404 addr=0xed4404
+      blastp ???:0 CBlastpApp::Run() offset=0xC9C addr=0x9cbf7c
+      blastp ???:0 ncbi::CNcbiApplication::x_TryMain(ncbi::EAppDiagStream, char const*, int*, bool*) offset=0x8E3 addr=0x1da0b93
+      blastp ???:0 ncbi::CNcbiApplication::AppMain(int, char const* const*, char const* const*, ncbi::EAppDiagStream, char const*, std::string const&) offset=0x782 addr=0x1d9f432
+      blastp ???:0 main offset=0x5E5 addr=0x9caa05
+      /lib64/libc.so.6 ???:0 __libc_start_main offset=0xF5 addr=0x7f847a544555
+      blastp ???:0 blastp() [0x9ca345] offset=0x0 addr=0x9ca345
+
+real 0.07
+user 0.02
+sys 0.01
